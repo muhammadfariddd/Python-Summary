@@ -1,0 +1,7 @@
+{
+  "window.zoomLevel": 1,
+  "editor.fontSize": 15,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.minimap.enabled": false
+  "workbench.colorTheme": "Andromeda Colorizer"
+}
