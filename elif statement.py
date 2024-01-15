@@ -1,26 +1,28 @@
-# Kalkulator Sederhana 
+# Kalkulator Sederhana
 
-print ("=" * 15)
-print ("Operator Elif")
-print ("=" * 15 + "\n")
+print("\t" + "=" * 50)
+print("\t" + " Operator Elif ".center(50, "="))
+print("\t" + "=" * 50 + "\n")
 
-angka_1 = float(input("Masukkan Angka Pertama :"))
-operator = input ("Masukkan Operatornya (+,-,x,/) :")
-angka_2 = float(input("Masukkan Angka kedua :"))
+angka_1 = int(input("Masukkan Angka Pertama :"))
+operator = input("Masukkan Operatornya (+,-,x,/) :")
+angka_2 = int(input("Masukkan Angka kedua :"))
 
-# Percabangannya 
+print (" ")
 
-if operator == "+" :
+# Percabangannya
+
+if operator == "+":
     hasil = angka_1 + angka_2
-    print (f"hasilnya Adalah : {hasil}")
-elif operator == "-" :
+    print(f"Hasil Dari Penjumlahan {angka_1} {operator} {angka_2} Adalah : {hasil}")
+elif operator == "-":
     hasil = angka_1 - angka_2
-    print (f"hasilnya Adalah : {hasil}")
-elif operator == "x" or operator == "*" :
+    print(f"Hasil Dari Pengurangan {angka_1} {operator} {angka_2} Adalah : {hasil}")
+elif operator == "x" or operator == "X" or operator == "*":
     hasil = angka_1 * angka_2
-    print (f"hasilnya Adalah : {hasil}")
-elif operator == "/" or operator == ":" :
+    print(f"Hasil Dari Perkalian {angka_1} {operator} {angka_2} Adalah : {hasil}")
+elif operator == "/" or operator == ":":
     hasil = angka_1 / angka_2
-    print (f"hasilnya Adalah : {hasil}")
-else :
-    print ("Maaf,Data Yang Anda Masukkan Salah")
+    print(f"Hasil Dari Pembagian {angka_1} {operator} {angka_2} Adalah : {hasil}")
+else:
+    print("Maaf, Data Yang Anda Masukkan Kurang Tepat")
